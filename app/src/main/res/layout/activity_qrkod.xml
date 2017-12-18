@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8a97de"
+    android:orientation="vertical"
+    tools:context="com.mecelik.harun.garsoon.QrkodtaraActivitiy"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_margin="50dp"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <Button
+        android:textColor="#8a97de"
+        android:background="#AFF34A"
+        android:id="@+id/scanner"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:onClick="scanQR"
+        android:text="Barkod Tara"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:textColor="#FF0000"
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        />
+
+</LinearLayout>

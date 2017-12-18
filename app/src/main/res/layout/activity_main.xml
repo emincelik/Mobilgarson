@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mecelik.harun.garsoon.MainActivity"
+    android:background="#8a97de">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="100dp">
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="#4F57cf"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Masa Ekranını Aç"
+            android:id="@+id/btnmasa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="#009688"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Geçmiş"
+            android:id="@+id/btngcms"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="#a35f7b"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:text="Hakkımızda"
+            android:id="@+id/btnhkkmz"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
